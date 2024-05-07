@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Signika+Negative:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Signika+Negative:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    transition: 1s all;
+  }
+
+  /*
+  font-family: "Signika Negative", sans-serif;
+   font-family: "Briem Hand", cursive;
+   font-family: "Lato", sans-serif;
+  */
+
+  nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    justify-content: space-between;
+  }
+  
+  nav ul a {
+    text-decoration: none;
+    background: #610b0b;
+    padding: 10px;
+    display: block;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 5px solid transparent;
+  }
+  
+  nav ul li a:hover {
+    background: #ce455c;
+    color: #421010;
+    border-bottom: 5px solid #f56383;
+  }
+  
+  nav li {
+    margin: 4px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+header, footer {
+    background: #610b0b;
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+  }
+  h1 {
+    position: absolute;
+    color: #e9a0ac;
+    top: 70px;
+    left: 300px;
+    background: rgba(255, 255, 255, 225);
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;
+    font-family: "Briem Hand", cursive;
+    font-size: 75px;
+  }
+  h1 span{
+    display: block;
+    color: #610b0b;
+    font-style: italic;
+    position: relative;
+    bottom: 10px;
+    font-family: "Briem Hand", cursive;
+    font-size: 40px;
+  }
+
+  h2 {
+    color: #610b0b;
+    font-family: "Signika Negative", sans-serif;
+  }
+  
+  main {
+    padding: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    padding: 10px;
+  }
+  
+  p {
+    font-family: "Lato", sans-serif;
+  }
+
+  
+  main section {
+    flex: 1 1 50%;
+  }
+
+  @media only screen and (max-width: 700px) {
+ 
+    h1 {
+        font-size: 45px;
+        left: 100px;
+    }
+
+    h1 span {
+        font-size: 25px;
+    }
+
+  }
+

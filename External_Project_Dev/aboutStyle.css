@@ -1,0 +1,22 @@
+
+main {
+    padding: 40px;
+}
+
+
+h1 {
+    position: relative;
+    color: #ffbcc7;
+    top: 10px;
+    left: 50px;
+    background: none;
+    padding: 10px;
+    text-align: left;
+    font-family: "Briem Hand", cursive;
+    font-size: 50px;
+  }
+
+  p {
+    position: relative;
+    padding: 20px;
+  }
